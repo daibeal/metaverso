@@ -51,7 +51,25 @@
 @import url('jquery.fancybox.min.css');
 @import url('jquery.mCustomScrollbar.min.css');
 
+@media screen and (max-width: 767px) {
+	.slide{
+		background: url(https://www.whatspaper.com/wp-content/uploads/2021/12/phone-wallpaper-whatspaper-12.jpg)!important;
+		background-size: cover!important;
+	}
+	h1 {
+		font-size: 4rem !important; 
+	}
+	.see-projects {
+		margin-top: 3rem !important;
+		font-size: 1.5rem !important;
+	}
+}
+	
+
+
 /*** 
+
+
 
 ====================================================================
 	Reset
